@@ -3,6 +3,7 @@ import './App.css';
 import EventBind from './components/EventBind';
 import ParentConmponent from './components/ParentConmponent';
 import UserGreeting from './components/UserGreeting';
+import NameList from './components/NameList';
 // import Message from './components/Message';
 // import Counter from './components/Counter';
 // import FunctionClick from './components/FunctionClick';
@@ -17,7 +18,7 @@ const devider = {
 
 function App() {
 	return (
-		<div className='App'>
+		<div style={{ padding: '2.5rem' }}>
 			{/* <p></p>
 			<Counter />
 			<Message /> */}
@@ -34,6 +35,10 @@ function App() {
 			<p></p>
 
 			<UserGreeting />
+			<div style={devider}></div>
+			<p>List Rendering with Map</p>
+			<p></p>
+			<NameList />
 		</div>
 	);
 }
