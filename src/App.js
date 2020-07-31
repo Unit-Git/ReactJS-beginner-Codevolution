@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import EventBind from './components/EventBind';
 import ParentConmponent from './components/ParentConmponent';
+import UserGreeting from './components/UserGreeting';
 // import Message from './components/Message';
 // import Counter from './components/Counter';
 // import FunctionClick from './components/FunctionClick';
@@ -28,6 +29,11 @@ function App() {
 			<p>Methods as props</p>
 			<p></p>
 			<ParentConmponent />
+			<div style={devider}></div>
+			<p>Conditional rendering</p>
+			<p></p>
+
+			<UserGreeting />
 		</div>
 	);
 }
