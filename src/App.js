@@ -1,9 +1,10 @@
 import React from 'react';
 import './App.css';
-import EventBind from './components/EventBind';
-import ParentConmponent from './components/ParentConmponent';
-import UserGreeting from './components/UserGreeting';
-import NameList from './components/NameList';
+// import EventBind from './components/EventBind';
+// import ParentConmponent from './components/ParentConmponent';
+// import UserGreeting from './components/UserGreeting';
+// import NameList from './components/NameList';
+import { StyleWithFileCss, InlineCss } from './components/StyleSheet';
 // import Message from './components/Message';
 // import Counter from './components/Counter';
 // import FunctionClick from './components/FunctionClick';
@@ -25,7 +26,7 @@ function App() {
 			{/* <div style={devider}></div> */}
 			{/* <FunctionClick />
 			<ClassClick /> */}
-			<EventBind />
+			{/* <EventBind />
 			<div style={devider}></div>
 			<p>Methods as props</p>
 			<p></p>
@@ -37,8 +38,16 @@ function App() {
 			<UserGreeting />
 			<div style={devider}></div>
 			<p>List Rendering with Map</p>
-			<p></p>
-			<NameList />
+			<p></p> */}
+			{/* <NameList /> */}
+			<div style={devider}></div>
+			<p>
+				<b>Styling and css basic</b>
+			</p>
+			<span>with file css</span>
+			<StyleWithFileCss primary={true} />
+			<span>with file css</span>
+			<InlineCss />
 		</div>
 	);
 }
