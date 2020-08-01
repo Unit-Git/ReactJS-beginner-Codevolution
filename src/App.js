@@ -1,21 +1,22 @@
 import React from 'react';
 import './App.css';
+import Forms from './components/Forms';
 // import EventBind from './components/EventBind';
 // import ParentConmponent from './components/ParentConmponent';
 // import UserGreeting from './components/UserGreeting';
 // import NameList from './components/NameList';
-import { StyleWithFileCss, InlineCss } from './components/StyleSheet';
+// import { StyleWithFileCss, InlineCss } from './components/StyleSheet';
 // import Message from './components/Message';
 // import Counter from './components/Counter';
 // import FunctionClick from './components/FunctionClick';
 // import ClassClick from './components/ClassClick';
 
-const devider = {
-	marginBottom: '2rem',
-	marginTop: '3rem',
-	width: '100%',
-	borderBottom: '1px solid #333',
-};
+// const devider = {
+// 	marginBottom: '2rem',
+// 	marginTop: '3rem',
+// 	width: '100%',
+// 	borderBottom: '1px solid #333',
+// };
 
 function App() {
 	return (
@@ -40,14 +41,16 @@ function App() {
 			<p>List Rendering with Map</p>
 			<p></p> */}
 			{/* <NameList /> */}
-			<div style={devider}></div>
+			{/* <div style={devider}></div>
 			<p>
 				<b>Styling and css basic</b>
 			</p>
 			<span>with file css</span>
 			<StyleWithFileCss primary={true} />
 			<span>with file css</span>
-			<InlineCss />
+			<InlineCss /> */}
+
+			<Forms />
 		</div>
 	);
 }
