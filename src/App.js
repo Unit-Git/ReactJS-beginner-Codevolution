@@ -1,6 +1,8 @@
 import React from 'react';
 import './App.css';
 import LifecycleA from './components/LifecycleA';
+import FragDemo from './components/FragDemo';
+import Table from './components/Table';
 // import Forms from './components/Forms';
 // import EventBind from './components/EventBind';
 // import ParentConmponent from './components/ParentConmponent';
@@ -53,6 +55,8 @@ function App() {
 
 			{/* <Forms /> */}
 			<LifecycleA />
+			<FragDemo />
+			<Table />
 		</div>
 	);
 }
