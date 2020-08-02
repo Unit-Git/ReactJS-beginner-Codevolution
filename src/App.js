@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
-import Forms from './components/Forms';
+import LifecycleA from './components/LifecycleA';
+// import Forms from './components/Forms';
 // import EventBind from './components/EventBind';
 // import ParentConmponent from './components/ParentConmponent';
 // import UserGreeting from './components/UserGreeting';
@@ -50,7 +51,8 @@ function App() {
 			<span>with file css</span>
 			<InlineCss /> */}
 
-			<Forms />
+			{/* <Forms /> */}
+			<LifecycleA />
 		</div>
 	);
 }
