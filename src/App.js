@@ -3,9 +3,11 @@ import './App.css';
 import LifecycleA from './components/LifecycleA';
 import FragDemo from './components/FragDemo';
 import Table from './components/Table';
+import PureComp from './components/PureComp';
+import ParentComponent from './components/ParentComponent';
 // import Forms from './components/Forms';
 // import EventBind from './components/EventBind';
-// import ParentConmponent from './components/ParentConmponent';
+
 // import UserGreeting from './components/UserGreeting';
 // import NameList from './components/NameList';
 // import { StyleWithFileCss, InlineCss } from './components/StyleSheet';
@@ -34,7 +36,7 @@ function App() {
 			<div style={devider}></div>
 			<p>Methods as props</p>
 			<p></p>
-			<ParentConmponent />
+
 			<div style={devider}></div>
 			<p>Conditional rendering</p>
 			<p></p>
@@ -57,6 +59,7 @@ function App() {
 			<LifecycleA />
 			<FragDemo />
 			<Table />
+			<ParentComponent />
 		</div>
 	);
 }
