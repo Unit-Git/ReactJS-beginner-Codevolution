@@ -1,6 +1,7 @@
 import React, { Component, Fragment } from 'react';
-import RegComp from './RegComp';
-import PureComp from './PureComp';
+// import RegComp from './RegComp';
+// import PureComp from './PureComp';
+import MemoComp from './MemoComp';
 // import ChildComponent from './ChildComponent';
 
 class ParentComponent extends Component {
@@ -31,8 +32,9 @@ class ParentComponent extends Component {
 		return (
 			<Fragment>
 				{/* <ChildComponent greetHandler={this.greetParent} /> */}
-				<RegComp name={this.state.name} />
-				<PureComp name={this.state.name} />
+				<MemoComp name={this.state.name} />
+				{/* <RegComp name={this.state.name} />
+				<PureComp name={this.state.name} /> */}
 			</Fragment>
 		);
 	}
