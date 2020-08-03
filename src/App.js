@@ -1,17 +1,13 @@
 import React from 'react';
 import './App.css';
-import LifecycleA from './components/LifecycleA';
-import FragDemo from './components/FragDemo';
-import Table from './components/Table';
-import ParentComponent from './components/ParentComponent';
+import RefsDemo from './components/RefsDemo';
+import RefFocusInput from './components/RefFocusInput';
 
 function App() {
 	return (
 		<div style={{ padding: '2.5rem' }}>
-			<LifecycleA />
-			<FragDemo />
-			<Table />
-			<ParentComponent />
+			{/* <RefsDemo /> */}
+			<RefFocusInput />
 		</div>
 	);
 }
