@@ -1,15 +1,18 @@
 import React from 'react';
 import './App.css';
-import RefsDemo from './components/RefsDemo';
-import RefFocusInput from './components/RefFocusInput';
-import FRinputParent from './components/FRinputParent';
+import PortalDemo from './components/PortalDemo';
+import Hero from './components/Hero';
+import ErrorBoundry from './components/ErrorBoundry';
 
 function App() {
 	return (
 		<div style={{ padding: '2.5rem' }}>
-			{/* <RefsDemo /> */}
-			<RefFocusInput />
-			<FRinputParent />
+			<ErrorBoundry>
+				{' '}
+				<Hero heroName='Batman' />
+				<Hero heroName='Superman' />
+				<Hero heroName='joker' />
+			</ErrorBoundry>
 		</div>
 	);
 }
