@@ -1,0 +1,29 @@
+import React, { Component, Fragment } from 'react';
+
+class CounterRenderProps extends Component {
+	constructor(props) {
+		super(props);
+
+		this.state = {
+			count: 0,
+		};
+	}
+
+	incrementCount = () => {
+		this.setState(ps => {
+			return {
+				count: ps.count + 1,
+			};
+		});
+	};
+
+	render() {
+		return (
+			<Fragment>
+				{this.props.render(this.state.count, this.incrementCount)}
+			</Fragment>
+		);
+	}
+}
+
+export default CounterRenderProps;
