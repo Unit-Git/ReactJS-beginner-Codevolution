@@ -1,18 +1,13 @@
 import React from 'react';
 import './App.css';
-import PortalDemo from './components/PortalDemo';
-import Hero from './components/Hero';
-import ErrorBoundry from './components/ErrorBoundry';
+import ClickCounter from './components/highOrderComponents/ClickCounter';
+import HoverCounter from './components/highOrderComponents/HoverCounter';
 
 function App() {
 	return (
 		<div style={{ padding: '2.5rem' }}>
-			<ErrorBoundry>
-				{' '}
-				<Hero heroName='Batman' />
-				<Hero heroName='Superman' />
-				<Hero heroName='joker' />
-			</ErrorBoundry>
+			<ClickCounter name='abhay' />
+			<HoverCounter />
 		</div>
 	);
 }
