@@ -1,19 +1,14 @@
 import React from 'react';
 import './App.css';
-import ComponentC from './components/Context/ComponentC';
-import { UserProvider } from './components/Context/userContext';
-// import ClickCounterTwo from './components/RenderProps/ClickCounterTwo';
-// import HoverCounterTwo from './components/RenderProps/HoverCounterTwo';
-// import User from './components/RenderProps/User';
-// import checkLogin from './components/RenderProps/checkLoggin';
-// import CounterRenderProps from './components/RenderProps/Counter.RenderProps';
+import PostList from './components/_HTTP/PostList';
+import './components/_HTTP/post.css';
+import PostForm from './components/_HTTP/PostForm';
 
 function App() {
 	return (
-		<div style={{ padding: '2.5rem' }}>
-			{/* <UserProvider value='Akbar'> */}
-			<ComponentC />
-			{/* </UserProvider> */}
+		<div className='main-content'>
+			<PostList />
+			<PostForm />
 		</div>
 	);
 }

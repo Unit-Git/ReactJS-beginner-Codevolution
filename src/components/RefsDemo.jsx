@@ -34,7 +34,7 @@ export class RefsDemo extends Component {
 				<input type='text' ref={this.setCbRef} />
 				<br />
 				<br />
-				<button onClick={this.clickRefHandler}>Click here bastard!</button>
+				<button onClick={this.clickRefHandler}>Click here!</button>
 			</Fragment>
 		);
 	}

@@ -1,0 +1,22 @@
+.main-content {
+	display: flex;
+	flex-direction: row;
+	padding: 2.3rem;
+}
+
+.form--group {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.form--group .form--control {
+	margin-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	height: 30px;
+}
+
+.button {
+	padding: 10px 1rem;
+}
